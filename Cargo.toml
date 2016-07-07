@@ -1,0 +1,13 @@
+[package]
+name = "bencode_parser"
+version = "0.1.0"
+authors = ["Niclas Brandt <niclas.ericson@gmail.com>"]
+
+[[bin]]
+doc = false
+name = "bencode_printer"
+path = "src/main.rs"
+
+[dependencies]
+nom = "^1.2.3"
+
